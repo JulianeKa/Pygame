@@ -249,7 +249,7 @@ def main_menu():
     run = True
     while run:
         WIN.blit(BG, (0,0))
-        title_label = title_font.render("Pressione o mause para começar...", 1, (255,255,255))
+        title_label = title_font.render("Pressione o mouse para começar...", 1, (255,255,255))
         WIN.blit(title_label, (WIDTH/2 - title_label.get_width()/2, 350))
         pygame.display.update()
         for event in pygame.event.get():
